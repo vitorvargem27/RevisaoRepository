@@ -12,6 +12,22 @@
 
 }
 
+.item-flexbox:hover{
+    background-color: green;
+}
+
+.item-flexbox:first-child{
+    color: red;
+}
+
+.item-flexbox:nth-child(5){
+    color: blue;
+}
+
+.item-flexbox:last-child{
+    color: aqua;
+}
+
 .container-01{
     display: flex;
     width: 300px;
