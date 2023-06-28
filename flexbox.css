@@ -1,0 +1,27 @@
+#conteudo-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1140px;
+    gap: 10px;
+}
+
+.item-flexbox{
+    width: 300px;
+    height: 300px;
+
+}
+
+.container-01{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px dashed #666;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid #666;
+}
